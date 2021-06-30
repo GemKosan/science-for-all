@@ -1,4 +1,5 @@
 import streams from '../apis/streams';
+import search from '../apis/search';
 import history from '../history';
 import * as types from './types';
 
@@ -21,6 +22,12 @@ export const createStream = formValues => async (dispatch, getState) => {
 
   dispatch({ type: types.CREATE_STREAM, payload: response.data});
   history.push('/');
+};
+
+export const searchPubMed = () => async dispatch => {
+  const response = await search.get('esearch.fcgi?db=pubmed&term=science%5bjournal%5d+AND+breast+cancer+AND+2008%5bpdat%5d');
+
+  dispatch({type: types.SEARCH_PUBMED, payload: response.data});
 };
 
 export const fetchStreams = () => async dispatch => {
