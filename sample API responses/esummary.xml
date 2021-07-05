@@ -1,0 +1,322 @@
+<!-- https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=6678417,9507199,28558982,28558984,28558988,28558990 -->
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20041029//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>6678417</Id>
+	<Item Name="PubDate" Type="Date">1983</Item>
+	<Item Name="EPubDate" Type="Date"></Item>
+	<Item Name="Source" Type="String">Perception</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Frijters JE</Item>
+		<Item Name="Author" Type="String">Oude Ophuis PA</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Oude Ophuis PA</Item>
+	<Item Name="Title" Type="String">The construction and prediction of psychophysical power functions for the sweetness of equiratio sugar mixtures.</Item>
+	<Item Name="Volume" Type="String">12</Item>
+	<Item Name="Issue" Type="String">6</Item>
+	<Item Name="Pages" Type="String">753-67</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0372307</Item>
+	<Item Name="ISSN" Type="String">0301-0066</Item>
+	<Item Name="ESSN" Type="String">1468-4233</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">6678417</Item>
+		<Item Name="doi" Type="String">10.1068/p120753</Item>
+		<Item Name="rid" Type="String">6678417</Item>
+		<Item Name="eid" Type="String">6678417</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1068/p120753</Item>
+	<Item Name="History" Type="List">
+		<Item Name="pubmed" Type="Date">1983/01/01 00:00</Item>
+		<Item Name="medline" Type="Date">1983/01/01 00:01</Item>
+		<Item Name="entrez" Type="Date">1983/01/01 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">Perception</Item>
+	<Item Name="ELocationID" Type="String"></Item>
+	<Item Name="SO" Type="String">1983;12(6):753-67</Item>
+</DocSum>
+
+<DocSum>
+	<Id>9507199</Id>
+	<Item Name="PubDate" Type="Date">1998 Mar</Item>
+	<Item Name="EPubDate" Type="Date"></Item>
+	<Item Name="Source" Type="String">Kidney Int</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Degenhardt S</Item>
+		<Item Name="Author" Type="String">Toell A</Item>
+		<Item Name="Author" Type="String">Weidemann W</Item>
+		<Item Name="Author" Type="String">Dotzenrath C</Item>
+		<Item Name="Author" Type="String">Spindler KD</Item>
+		<Item Name="Author" Type="String">Grabensee B</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Grabensee B</Item>
+	<Item Name="Title" Type="String">Point mutations of the human parathyroid calcium receptor gene are not responsible for non-suppressible renal hyperparathyroidism.</Item>
+	<Item Name="Volume" Type="String">53</Item>
+	<Item Name="Issue" Type="String">3</Item>
+	<Item Name="Pages" Type="String">556-61</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0323470</Item>
+	<Item Name="ISSN" Type="String">0085-2538</Item>
+	<Item Name="ESSN" Type="String">1523-1755</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">9507199</Item>
+		<Item Name="doi" Type="String">10.1046/j.1523-1755.1998.00802.x</Item>
+		<Item Name="pii" Type="String">S0085-2538(15)60429-X</Item>
+		<Item Name="rid" Type="String">9507199</Item>
+		<Item Name="eid" Type="String">9507199</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1046/j.1523-1755.1998.00802.x</Item>
+	<Item Name="History" Type="List">
+		<Item Name="pubmed" Type="Date">1998/03/21 00:00</Item>
+		<Item Name="medline" Type="Date">1998/03/21 00:01</Item>
+		<Item Name="entrez" Type="Date">1998/03/21 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">Kidney international</Item>
+	<Item Name="ELocationID" Type="String"></Item>
+	<Item Name="SO" Type="String">1998 Mar;53(3):556-61</Item>
+</DocSum>
+
+<DocSum>
+	<Id>28558982</Id>
+	<Item Name="PubDate" Type="Date">2017 Jun 27</Item>
+	<Item Name="EPubDate" Type="Date">2017 May 27</Item>
+	<Item Name="Source" Type="String">Vaccine</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Jimenez Trujillo I</Item>
+		<Item Name="Author" Type="String">Lopez de Andres A</Item>
+		<Item Name="Author" Type="String">Hernandez-Barrera V</Item>
+		<Item Name="Author" Type="String">Martinez-Huedo MA</Item>
+		<Item Name="Author" Type="String">de Miguel-Diez J</Item>
+		<Item Name="Author" Type="String">Jimenez-Garcia R</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Jimenez-Garcia R</Item>
+	<Item Name="Title" Type="String">Decrease in the incidence and in hospital mortality of community-acquired pneumonia among children in Spain (2001-2014).</Item>
+	<Item Name="Volume" Type="String">35</Item>
+	<Item Name="Issue" Type="String">30</Item>
+	<Item Name="Pages" Type="String">3733-3740</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">8406899</Item>
+	<Item Name="ISSN" Type="String">0264-410X</Item>
+	<Item Name="ESSN" Type="String">1873-2518</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">28558982</Item>
+		<Item Name="pii" Type="String">S0264-410X(17)30691-6</Item>
+		<Item Name="doi" Type="String">10.1016/j.vaccine.2017.05.055</Item>
+		<Item Name="rid" Type="String">28558982</Item>
+		<Item Name="eid" Type="String">28558982</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.vaccine.2017.05.055</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2016/12/01 00:00</Item>
+		<Item Name="revised" Type="Date">2017/05/17 00:00</Item>
+		<Item Name="accepted" Type="Date">2017/05/18 00:00</Item>
+		<Item Name="pubmed" Type="Date">2017/06/01 06:00</Item>
+		<Item Name="medline" Type="Date">2018/03/03 06:00</Item>
+		<Item Name="entrez" Type="Date">2017/06/01 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">Vaccine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.vaccine.2017.05.055</Item>
+	<Item Name="SO" Type="String">2017 Jun 27;35(30):3733-3740</Item>
+</DocSum>
+
+<DocSum>
+	<Id>28558984</Id>
+	<Item Name="PubDate" Type="Date">2017 Dec 14</Item>
+	<Item Name="EPubDate" Type="Date">2017 May 27</Item>
+	<Item Name="Source" Type="String">Vaccine</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">McArthur MA</Item>
+		<Item Name="Author" Type="String">Maciel M Jr</Item>
+		<Item Name="Author" Type="String">Pasetti MF</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Pasetti MF</Item>
+	<Item Name="Title" Type="String">Human immune responses against Shigella and enterotoxigenic E. coli: Current advances and the path forward.</Item>
+	<Item Name="Volume" Type="String">35</Item>
+	<Item Name="Issue" Type="String">49 Pt A</Item>
+	<Item Name="Pages" Type="String">6803-6806</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">8406899</Item>
+	<Item Name="ISSN" Type="String">0264-410X</Item>
+	<Item Name="ESSN" Type="String">1873-2518</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">28558984</Item>
+		<Item Name="pii" Type="String">S0264-410X(17)30658-8</Item>
+		<Item Name="doi" Type="String">10.1016/j.vaccine.2017.05.034</Item>
+		<Item Name="pmc" Type="String">PMC5749635</Item>
+		<Item Name="mid" Type="String">NIHMS927801</Item>
+		<Item Name="rid" Type="String">28558984</Item>
+		<Item Name="eid" Type="String">28558984</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC5749635;manuscript-id: NIHMS927801;</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.vaccine.2017.05.034</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2017/01/06 00:00</Item>
+		<Item Name="revised" Type="Date">2017/04/04 00:00</Item>
+		<Item Name="accepted" Type="Date">2017/05/10 00:00</Item>
+		<Item Name="pubmed" Type="Date">2017/06/01 06:00</Item>
+		<Item Name="medline" Type="Date">2018/08/01 06:00</Item>
+		<Item Name="entrez" Type="Date">2017/06/01 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">9</Item>
+	<Item Name="FullJournalName" Type="String">Vaccine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.vaccine.2017.05.034</Item>
+	<Item Name="SO" Type="String">2017 Dec 14;35(49 Pt A):6803-6806</Item>
+</DocSum>
+
+<DocSum>
+	<Id>28558988</Id>
+	<Item Name="PubDate" Type="Date">2017 Dec</Item>
+	<Item Name="EPubDate" Type="Date">2017 May 10</Item>
+	<Item Name="Source" Type="String">Clin Genitourin Cancer</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Haddad AQ</Item>
+		<Item Name="Author" Type="String">Hutchinson R</Item>
+		<Item Name="Author" Type="String">Wood EL</Item>
+		<Item Name="Author" Type="String">Miranda G</Item>
+		<Item Name="Author" Type="String">Gershman B</Item>
+		<Item Name="Author" Type="String">Messer J</Item>
+		<Item Name="Author" Type="String">Svatek R</Item>
+		<Item Name="Author" Type="String">Black PC</Item>
+		<Item Name="Author" Type="String">Boorjian SA</Item>
+		<Item Name="Author" Type="String">Shah J</Item>
+		<Item Name="Author" Type="String">Daneshmand S</Item>
+		<Item Name="Author" Type="String">Lotan Y</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Lotan Y</Item>
+	<Item Name="Title" Type="String">Association of Distance to Treatment Facility With Survival and Quality Outcomes After Radical Cystectomy: A Multi-Institutional Study.</Item>
+	<Item Name="Volume" Type="String">15</Item>
+	<Item Name="Issue" Type="String">6</Item>
+	<Item Name="Pages" Type="String">689-695.e2</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101260955</Item>
+	<Item Name="ISSN" Type="String">1558-7673</Item>
+	<Item Name="ESSN" Type="String">1938-0682</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Multicenter Study</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">28558988</Item>
+		<Item Name="pii" Type="String">S1558-7673(17)30130-1</Item>
+		<Item Name="doi" Type="String">10.1016/j.clgc.2017.05.006</Item>
+		<Item Name="rid" Type="String">28558988</Item>
+		<Item Name="eid" Type="String">28558988</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.clgc.2017.05.006</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2017/01/31 00:00</Item>
+		<Item Name="revised" Type="Date">2017/04/17 00:00</Item>
+		<Item Name="accepted" Type="Date">2017/05/01 00:00</Item>
+		<Item Name="pubmed" Type="Date">2017/06/01 06:00</Item>
+		<Item Name="medline" Type="Date">2018/07/03 06:00</Item>
+		<Item Name="entrez" Type="Date">2017/06/01 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">3</Item>
+	<Item Name="FullJournalName" Type="String">Clinical genitourinary cancer</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.clgc.2017.05.006</Item>
+	<Item Name="SO" Type="String">2017 Dec;15(6):689-695.e2</Item>
+</DocSum>
+
+<DocSum>
+	<Id>28558990</Id>
+	<Item Name="PubDate" Type="Date">2017 Dec</Item>
+	<Item Name="EPubDate" Type="Date">2017 May 10</Item>
+	<Item Name="Source" Type="String">Clin Genitourin Cancer</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Modi PK</Item>
+		<Item Name="Author" Type="String">Bock M</Item>
+		<Item Name="Author" Type="String">Kim S</Item>
+		<Item Name="Author" Type="String">Singer EA</Item>
+		<Item Name="Author" Type="String">Parikh RR</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Parikh RR</Item>
+	<Item Name="Title" Type="String">Utilization of Pelvic Lymph Node Dissection for Patients With Low-Risk Prostate Cancer Treated With Robot-Assisted Radical Prostatectomy.</Item>
+	<Item Name="Volume" Type="String">15</Item>
+	<Item Name="Issue" Type="String">6</Item>
+	<Item Name="Pages" Type="String">e1001-e1006</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101260955</Item>
+	<Item Name="ISSN" Type="String">1558-7673</Item>
+	<Item Name="ESSN" Type="String">1938-0682</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">28558990</Item>
+		<Item Name="pii" Type="String">S1558-7673(17)30137-4</Item>
+		<Item Name="doi" Type="String">10.1016/j.clgc.2017.05.013</Item>
+		<Item Name="pmc" Type="String">PMC5812447</Item>
+		<Item Name="mid" Type="String">NIHMS940203</Item>
+		<Item Name="rid" Type="String">28558990</Item>
+		<Item Name="eid" Type="String">28558990</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC5812447;manuscript-id: NIHMS940203;</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.clgc.2017.05.013</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2017/03/13 00:00</Item>
+		<Item Name="revised" Type="Date">2017/04/19 00:00</Item>
+		<Item Name="accepted" Type="Date">2017/05/03 00:00</Item>
+		<Item Name="pubmed" Type="Date">2017/06/01 06:00</Item>
+		<Item Name="medline" Type="Date">2018/01/27 06:00</Item>
+		<Item Name="entrez" Type="Date">2017/06/01 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">2</Item>
+	<Item Name="FullJournalName" Type="String">Clinical genitourinary cancer</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.clgc.2017.05.013</Item>
+	<Item Name="SO" Type="String">2017 Dec;15(6):e1001-e1006</Item>
+</DocSum>
+
+</eSummaryResult>

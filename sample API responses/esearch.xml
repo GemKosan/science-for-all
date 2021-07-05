@@ -1,0 +1,26 @@
+<!-- https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=meditation+AND+brain&usehistory=y -->
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>1181</Count><RetMax>20</RetMax><RetStart>0</RetStart><QueryKey>1</QueryKey><WebEnv>MCID_60e34443cc91a514e44f6ca4</WebEnv><IdList>
+<Id>34205621</Id>
+<Id>34188381</Id>
+<Id>34184604</Id>
+<Id>34139248</Id>
+<Id>34136657</Id>
+<Id>34070890</Id>
+<Id>34068722</Id>
+<Id>34059702</Id>
+<Id>34050125</Id>
+<Id>34022961</Id>
+<Id>34009644</Id>
+<Id>34007290</Id>
+<Id>33994976</Id>
+<Id>33981956</Id>
+<Id>33975858</Id>
+<Id>33960912</Id>
+<Id>33956146</Id>
+<Id>33951510</Id>
+<Id>33948660</Id>
+<Id>33946661</Id>
+</IdList><TranslationSet><Translation>     <From>meditation</From>     <To>"meditation"[MeSH Terms] OR "meditation"[All Fields]</To>    </Translation><Translation>     <From>brain</From>     <To>"brain"[MeSH Terms] OR "brain"[All Fields]</To>    </Translation></TranslationSet><TranslationStack>   <TermSet>    <Term>"meditation"[MeSH Terms]</Term>    <Field>MeSH Terms</Field>    <Count>3107</Count>    <Explode>Y</Explode>   </TermSet>   <TermSet>    <Term>"meditation"[All Fields]</Term>    <Field>All Fields</Field>    <Count>6685</Count>    <Explode>N</Explode>   </TermSet>   <OP>OR</OP>   <OP>GROUP</OP>   <TermSet>    <Term>"brain"[MeSH Terms]</Term>    <Field>MeSH Terms</Field>    <Count>1247155</Count>    <Explode>Y</Explode>   </TermSet>   <TermSet>    <Term>"brain"[All Fields]</Term>    <Field>All Fields</Field>    <Count>1679253</Count>    <Explode>N</Explode>   </TermSet>   <OP>OR</OP>   <OP>GROUP</OP>   <OP>AND</OP>  </TranslationStack><QueryTranslation>("meditation"[MeSH Terms] OR "meditation"[All Fields]) AND ("brain"[MeSH Terms] OR "brain"[All Fields])</QueryTranslation></eSearchResult>

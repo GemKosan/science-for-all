@@ -4,7 +4,7 @@ export default (state = {}, action) => {
   switch (action.type) {
     case types.SEARCH_PUBMED:
       // TODO: handle results from pubmed
-      alert(action.payload);
+      console.log(action.payload);
       return state;
     // case types.FETCH_STREAMS:
     //   return { ...state, ..._.mapKeys(action.payload, 'id') }

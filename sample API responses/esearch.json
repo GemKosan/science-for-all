@@ -1,0 +1,76 @@
+// https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=meditation+AND+brain&retmode=json&usehistory=y
+
+{
+	"header": { "type": "esearch", "version": "0.3" },
+	"esearchresult": {
+		"count": "1181",
+		"retmax": "20",
+		"retstart": "0",
+		"querykey": "1",
+		"webenv": "MCID_60e34607130d5e2c701a8c6d",
+		"idlist": [
+			"34205621",
+			"34188381",
+			"34184604",
+			"34139248",
+			"34136657",
+			"34070890",
+			"34068722",
+			"34059702",
+			"34050125",
+			"34022961",
+			"34009644",
+			"34007290",
+			"33994976",
+			"33981956",
+			"33975858",
+			"33960912",
+			"33956146",
+			"33951510",
+			"33948660",
+			"33946661"
+		],
+		"translationset": [
+			{
+				"from": "meditation",
+				"to": "\"meditation\"[MeSH Terms] OR \"meditation\"[All Fields]"
+			},
+			{
+				"from": "brain",
+				"to": "\"brain\"[MeSH Terms] OR \"brain\"[All Fields]"
+			}
+		],
+		"translationstack": [
+			{
+				"term": "\"meditation\"[MeSH Terms]",
+				"field": "MeSH Terms",
+				"count": "3107",
+				"explode": "Y"
+			},
+			{
+				"term": "\"meditation\"[All Fields]",
+				"field": "All Fields",
+				"count": "6685",
+				"explode": "N"
+			},
+			"OR",
+			"GROUP",
+			{
+				"term": "\"brain\"[MeSH Terms]",
+				"field": "MeSH Terms",
+				"count": "1247155",
+				"explode": "Y"
+			},
+			{
+				"term": "\"brain\"[All Fields]",
+				"field": "All Fields",
+				"count": "1679253",
+				"explode": "N"
+			},
+			"OR",
+			"GROUP",
+			"AND"
+		],
+		"querytranslation": "(\"meditation\"[MeSH Terms] OR \"meditation\"[All Fields]) AND (\"brain\"[MeSH Terms] OR \"brain\"[All Fields])"
+	}
+}
