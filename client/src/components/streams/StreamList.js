@@ -1,12 +1,13 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { fetchStreams, searchPubMed } from '../../actions';
+import { fetchStreams, pubMedSearchWithHistory } from '../../actions';
 
 class StreamList extends React.Component {
   componentDidMount() {
     this.props.fetchStreams();
-    this.props.searchPubMed();
+    // TODO: encode URIs
+    this.props.pubMedSearchWithHistory('ganoderma');
   }
 
   renderAdminControls(stream) {
@@ -70,4 +71,4 @@ const mapStateToProps = (state) => {
   };
 };
 
-export default connect(mapStateToProps, { fetchStreams, searchPubMed })(StreamList);
+export default connect(mapStateToProps, { fetchStreams, pubMedSearchWithHistory })(StreamList);

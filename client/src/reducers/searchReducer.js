@@ -2,10 +2,10 @@ import * as types from '../actions/types';
 
 export default (state = {}, action) => {
   switch (action.type) {
-    case types.SEARCH_PUBMED:
-      // TODO: handle results from pubmed
-      console.log(action.payload);
-      return state;
+    case types.SEARCH_STATUS:
+      return {...state, status: action.payload};
+    case types.PUBMED_RESPONSE_DATA:
+      return {...state, response: action.payload};
     // case types.FETCH_STREAMS:
     //   return { ...state, ..._.mapKeys(action.payload, 'id') }
     // case types.FETCH_STREAM:
