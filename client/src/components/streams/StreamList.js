@@ -1,6 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
+import _ from 'lodash';
+import '../../css/StreamList.css';
+
 import { fetchStreams, pubMedSearchWithHistory } from '../../actions';
 
 class StreamList extends React.Component {
@@ -10,39 +13,34 @@ class StreamList extends React.Component {
     this.props.pubMedSearchWithHistory('ganoderma');
   }
 
-  renderAdminControls(stream) {
-    if (stream.userId === this.props.currentUserId) {
-      return (
-        <div className="right floated content">
-          <Link to={`/streams/edit/${stream.id}`} className="ui button primary">Edit</Link>
-          <Link to={`/streams/delete/${stream.id}`} className="ui button negative">
-            Delete
-          </Link>
-        </div>
-      );
-    }
-  }
-
   renderList() {
-    return this.props.streams.map(stream => {
+    const results = Object.values(_.get(this.props, 'summaries.response.result', {}));
+    return results.map((summary) => {
+      const title = {
+        __html: _.get(summary, 'title', 'Title Not Found'),
+      };
+      const authors = _.get(summary, 'authors', []);
       return (
-        <div className="item" key={stream.id}>
-          {this.renderAdminControls(stream)}
-          <i className="large middle aligned icon camera" />
-          <div className="content">
-            <Link to={`/streams/${stream.id}`} className="header">
-              {stream.title}
-            </Link>
-            <div className="description">
-              {stream.description}
-            </div>
-          </div>          
+        <div className="item" key={summary.uid}>
+          <i className="large middle aligned" />
+          <div className="title">
+            <Link 
+              dangerouslySetInnerHTML={title}
+              to={`/result/${summary.uid}`} 
+              className="header" 
+            />
+          </div>
+          <ul className ="authors">
+            {authors.map((author, index) => 
+              <li className="author" key={index}>{author.name}</li>
+            )}
+          </ul>
         </div>
       );
     });
   }
 
-  renderCreateLink() {
+  renderLink() {
     if (this.props.isSignedIn) {
       return (
         <div style={{ textAlign: 'right' }}>
@@ -55,9 +53,9 @@ class StreamList extends React.Component {
   render() {
     return (
       <div>
-        <h2>Streams</h2>
+        <h2>Results</h2>
         <div className="ui celled list"> {this.renderList()} </div>
-        {this.renderCreateLink()}
+        {this.renderLink()}
       </div>
     );
   }
@@ -66,6 +64,7 @@ class StreamList extends React.Component {
 const mapStateToProps = (state) => {
   return { 
     streams: Object.values(state.streams),
+    summaries: state.searchReducer,
     currentUserId: state.auth.userId,
     isSignedIn: state.auth.isSignedIn
   };

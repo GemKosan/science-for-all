@@ -1,0 +1,13 @@
+.authors {
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0;
+}
+
+.author::after {
+  content: ', \0000a0';
+}
+
+.author:last-child::after {
+  content: none;
+}
