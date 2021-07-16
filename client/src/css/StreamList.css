@@ -11,3 +11,12 @@
 .author:last-child::after {
   content: none;
 }
+
+.publication {
+  color: green;
+}
+
+/* place this last */
+.error {
+  color: red;
+}

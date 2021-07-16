@@ -17,24 +17,42 @@ class StreamList extends React.Component {
     const results = Object.values(_.get(this.props, 'summaries.response.result', {}));
     return results.map((summary) => {
       const title = {
-        __html: _.get(summary, 'title', 'Title Not Found'),
+        __html: _.get(summary, 'title', ''),
       };
       const authors = _.get(summary, 'authors', []);
+      const publication = _.get(summary, 'booktitle', '') || _.get(summary, 'fulljournalname', '');
       return (
         <div className="item" key={summary.uid}>
           <i className="large middle aligned" />
           <div className="title">
-            <Link 
-              dangerouslySetInnerHTML={title}
-              to={`/result/${summary.uid}`} 
-              className="header" 
-            />
+            {title ? 
+              <Link 
+                dangerouslySetInnerHTML={title}
+                to={`/result/${summary.uid}`} 
+                className="header" 
+              />
+              :
+              <Link 
+                dangerouslySetInnerHTML={'Title not found'}
+                to={`/result/${summary.uid}`} 
+                className="header error" 
+              />
+            }
           </div>
           <ul className ="authors">
-            {authors.map((author, index) => 
-              <li className="author" key={index}>{author.name}</li>
-            )}
+            {authors.length ? 
+              authors.map((author, index) => 
+                <li className="author" key={index}>{author.name}</li>
+              )
+              :
+              <li className="author error">No authors found</li>
+            }
           </ul>
+          {publication ? 
+            <span className="publication">{publication}</span>
+            :
+            <span className="publication error">Publication not found</span>
+          }
         </div>
       );
     });
